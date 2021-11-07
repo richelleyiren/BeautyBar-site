@@ -44,7 +44,7 @@ a:hover {
 }
 
 #section_one {
-    background-image: url(first.webp);
+    background-image: url(images/first.webp);
     background-size: cover;
     height: 60em;
     width: 100%;
@@ -97,20 +97,20 @@ a:hover {
     border-radius: 1em;
 }
 .dis1{
-    background-image: url(skin1.jpeg);
+    background-image: url(images/skin1.jpeg);
     background-size: cover;
    
 }
 .dis2 {
-    background-image: url(skin3.jpeg);
+    background-image: url(images/skin3.jpeg);
     background-size: cover;
 }
 .dis3 {
-    background-image: url(skin2.jpeg);
+    background-image: url(images/skin2.jpeg);
     background-size: cover;
 }
 .dis4 {
-    background-image: url(skin4.jpeg);
+    background-image: url(images/skin4.jpeg);
     background-size: cover;
 }
 .desc{
@@ -120,7 +120,7 @@ a:hover {
 }
 
 #section_two {
-    background-image: url(bottle1.jpeg);
+    background-image: url(images/bottle1.jpeg);
     background-size: cover;
     height: 39em;
     width: 100%;
@@ -154,7 +154,7 @@ p {
 }
 
 #section_three {
-    background-image: url(products.jpeg);
+    background-image: url(images/products.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ p {
 
 
 #section_five {
-    background-image: url(review.jpeg);
+    background-image: url(images/review.jpeg);
     background-size: cover;
     height: 32.7em;
     width: 100%;
@@ -258,7 +258,7 @@ p {
     display: flex;
     position: relative;
     padding: 9em 7em ;
-    background-image: url(wood.jpeg);
+    background-image: url(images/wood.jpeg);
     background-size: cover;
     height: 46em;
     width: 100%;
