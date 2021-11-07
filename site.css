@@ -14,7 +14,7 @@ body{
 header {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(43, 43, 70, 0.815);
+    background-color:#252830;
     height: 3em;
     text-align: center;
     padding: 12px;
@@ -29,13 +29,13 @@ header {
 
 }
 
-a {
+#navbars a {
     text-decoration: none;
     color: white;
     padding: 1em;
 }
 
-a:hover {
+#navbars a:hover {
     color: rgb(0, 162, 255);
 }
 
@@ -125,14 +125,21 @@ a:hover {
     height: 39em;
     width: 100%;
     margin: 0;
+    text-align: center;
     color: white;
      padding-top: 3em;
+      
+     
 }
 
 
 .discover {
     text-align: center;
-    line-height: 1.3em;   
+    line-height: 1.3em; 
+    width: 50%;
+    position: relative;
+    margin: auto 25%;
+   
 }
 
 .discover p{
@@ -171,7 +178,7 @@ p {
     display: block;
     width: 100%;
     height: 100%;
-    background-color: rgba(17, 10, 16, 0.5);
+    background-color: rgba(49, 49, 49, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -214,6 +221,10 @@ p {
     width: 25em;
     margin-top: 40px;
     border-radius: 5px;
+}
+.conts a:hover{
+     background-color: #d88c23;
+
 }
 
 
@@ -327,8 +338,10 @@ hr{
     width: 25em;
     margin-top: 40px;
     border-radius: 5px; 
-    
-    
+      
+}
+.book-btn:hover{
+    background-color: #d88c23;
 }
 .book_div i{
     padding: 0 0.5em;
@@ -359,7 +372,27 @@ hr{
 }
 
 #footer {
-    height: 15em;
+    height: 11em;
     background-color: #252830;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;  
+}
 
+.main_footlogo{
+    color: white;
+
+}
+.main_footicons{
+    gap: 2em;
+}
+.main_footicons a{
+    font-size: 28px;
+    color: gray;
 }
