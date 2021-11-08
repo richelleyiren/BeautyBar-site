@@ -8,6 +8,7 @@ body{
     font-family: 'Hind',sans-serif;
     font-size: 17px;
     line-height: 1.5;
+    font-family: 'Roboto',sans-serif;
 }
 
 
@@ -75,7 +76,8 @@ header {
 }
 
 #menu_container { 
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     gap:1.8em;
     position: relative;
     top: 8em;
@@ -161,7 +163,7 @@ p {
 }
 
 #section_three {
-    background-image: url(images/products.jpeg);
+    background-image: url(images/products.webp);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -221,6 +223,7 @@ p {
     width: 25em;
     margin-top: 40px;
     border-radius: 5px;
+    text-decoration: none;
 }
 .conts a:hover{
      background-color: #d88c23;
@@ -253,17 +256,45 @@ p {
   
 }
 #section_five h6{
-    color: hotpink;
+    opacity: .7;
     font-size: 17px;
 }
-
+/* food menu*/
 #section_six {
+    background-image: url(images/pattern.png);
     background-color: white;
     height: 50em;
     width: 100%;
     margin: 0;
+}
+.grid-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 4em;
+    grid-row-gap: 4em;
+    padding: 4em 10em;
+
 
 }
+.grid-section img{
+    margin-bottom: 1em;
+    padding-left: 3em;
+}
+.grid-section h3 {
+    margin-bottom: 1em;
+    font-weight: 300;
+    font-size: 26px;
+    font-weight: bold;
+}
+.grid-section  p, h3 {
+    text-align: center;
+
+}
+.grid-section p{
+    color:#555;
+}
+
+
 
 #section_seven {
     display: flex;
