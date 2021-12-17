@@ -1,0 +1,292 @@
+
+@media(min-width:375px) and (max-width:812px) {
+   
+    #navbars{
+        display: none;
+        width: 100%;
+    }
+    #navbars.hamenu{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        width: 50vw;
+        background-color: tomato;
+    }
+    .hamburger{
+        display: block;
+    }
+
+    #main_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #intro {
+        color: white;
+        margin-top: 5em;
+        margin-left: 1em;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        margin-left: none;
+        line-height: 2em;
+        text-align: center;
+    }
+
+    #intro h3{
+        font-size: 16px;
+    }
+
+    #intro span {
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    #menu_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5em;
+        margin-top: 8em;
+    }
+    .discover {
+        text-align: center;
+        line-height: 1.5em;
+        width: 100%;
+        position: relative;
+        margin: auto;
+        
+    }
+    .discover h2 {
+        padding-top: 1.5em;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        line-height: 1.3em;
+        letter-spacing: 0.5;
+    }
+    .discover p {
+        padding: 3em 1em ;
+        line-height: 1.5em;
+    }
+    #section_two {
+        width: 100%;
+        height: 60vh;
+        color: white;
+        padding-top: 3em;
+    }
+
+    .big_title {
+        font-size: 30px;
+        font-weight: 160;
+        margin-bottom: 70px;
+        text-align: center;
+        z-index: -1;
+    }
+
+    .conts {
+        padding: 3em 1em;
+    
+    }
+
+    .conts p {
+        opacity: 0.7;
+        margin: 0 0 6em;
+    }
+
+    .conts a {
+        background-color: #f0ad4e;
+        color: white;
+        border: none;
+        height: 3.5em;
+        margin-left: 40px;
+        padding: 22px 35px;
+        font-size: 20px;
+        text-align: center;
+        width: 25em;
+        margin-top: 40px;
+        border-radius: 5px;
+        text-decoration: none;
+        z-index: -1;
+    }
+    #section_five{
+        height: 28em;
+    }
+    #section_five p {
+        padding-top: 7em ;
+        margin: auto 2em;
+        line-height: 2em;
+        font-weight: 90;
+        letter-spacing: 0.5;
+        font-size: 18px;
+        
+    }
+
+    #section_five h6 {
+        opacity: .7;
+        font-size: 17px;
+    }
+    .grid-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 4em;
+        grid-row-gap: 4em;
+        padding: 4em 3em;
+    }
+    .grid-section img {
+        margin-bottom: 1em;
+        padding-left: 3em;
+    }
+
+    .grid-section h3 {
+        margin-bottom: 1em;
+        font-weight: 300;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .grid-section p {
+        color: #555;
+        font-size: 16px;
+    }
+    
+    #footer {
+        height: 11em;
+        background-color: #252830;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-self: center;
+        padding: 5em;
+    }
+
+    .foot {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .main_footlogo {
+        color: white;
+
+    }
+    .main_footicons {
+        gap: 2em;
+    }
+
+    .main_footicons a {
+        font-size: 25px;
+        color: gray;
+       
+    }
+  .foot span{
+      text-align: center;
+       padding-bottom: 2em;
+  }
+  .logoimg{
+      display: none;
+  }
+  #section_seven {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding: 6em 1em 6em 0px;
+      background-image: url(images/wood.jpeg);
+      background-size: cover;
+      min-height: 46em;
+      width: 100%;
+  }
+
+  .book_div {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-left: 0px;
+      color: white;
+      padding-right: 15px;
+      padding-left: 15px;
+      font-size: 18px;
+  }
+
+  .book_div h1 {
+      font-size: 2em;
+      text-align: center;
+      font-size: 25px;
+      margin-bottom: 60px;
+      letter-spacing: 1px;
+  }
+
+  .text-box {
+      width: 100%;
+      border-bottom: 2px solid grey;
+      padding: 30px 25px 30px 1px;
+      outline: none;
+      background-color: transparent;
+      color: white;
+      text-align: left;
+      border-style: none;
+      border-bottom: grey solid 1px;
+  }
+
+  hr {
+      width: 100%;
+      border: none;
+      height: 1px;
+      background: grey;
+
+  }
+
+  textarea {
+      background-color: transparent;
+      width: 100%;
+      outline: none;
+      border-style: none;
+      border-bottom: grey solid 1px;
+      padding: 20px 25px 20px 0;
+      font-size: 15px;
+  }
+
+  .book-btn {
+      background-color: #f0ad4e;
+      color: white;
+      border: none;
+      height: 3.5em;
+      padding: 22px 35px;
+      font-size: 20px;
+      text-align: center;
+      width: 100%;
+      margin-top: 40px;
+      border-radius: 5px;
+
+  }
+
+  .book_div i {
+      padding: 0 0.5em;
+  }
+
+  .time_div {
+       display: flex;
+        flex-direction: column;
+      width: 100%;
+      line-height: 25px;
+      color: white;
+      font-size: 18px;
+      padding-top: 2.5em;
+      text-align: center;
+      
+  }
+
+  .time_div i {
+      margin-left: 20px;
+      font-size: 1em;
+      padding: 1em;
+
+
+  }
+
+  .time_div p {
+      font-size: 0.9em;
+      font-weight: 200;
+      margin-bottom: 60px;
+      padding-left: 2em;
+
+  }
+}
